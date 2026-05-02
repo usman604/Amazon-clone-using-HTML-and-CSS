@@ -48,7 +48,7 @@ li{
 #div-logo{
     width: 100px;
     height: 30px;
-    background-image: url("https://github.com/usman604/Amazon-clone-using-HTML-and-CSS/blob/main/images/Amazon-Logo-White-PNG-Image.png");
+    background-image: url("./images/Amazon-Logo-White-PNG-Image.png");
     background-size: contain;
     background-repeat: no-repeat ;
 }
