@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #d8d7d7;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+#navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border-color: white;
+}
+
+/* logo container  */
+
+#logo-container{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-logo{
+    width: 100px;
+    height: 30px;
+    background-image: url("/images/Amazon-Logo-White-PNG-Image.png");
+    background-size: contain;
+    background-repeat: no-repeat ;
+}
+
+/* delivered to box  */
+
+#delivered>p{
+    font-size: 0.7rem;
+    color: rgb(189, 187, 187);
+    margin-left: 20px;
+}
+
+#delivered_sec{
+    display: flex;
+    align-items: center;
+}
+
+#delivered_sec p{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+/* search bar */
+#search{
+    display: flex;
+    width: 50%;
+    border: 1px solid transparent;
+}
+
+#search:hover{
+    border-color: #f0a441;
+}
+
+#search_options{
+    height: 40px;
+    width: 55px;
+    background-color: #ebebeb;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+#search_bar{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    padding-left: 10px;
+}
+
+#search_icon{
+    height: 40px;
+    width: 50px; 
+    background-color: #f0ae58; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* accounts options  */
+.nav-content-small{
+    font-size: 0.7rem; 
+}
+.nav-content-bold{
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+/* cart  */
+
+#cart{
+    display: flex;
+    align-items: flex-end;
+}
+
+#cart p{
+    font-size: 0.8rem;
+}
+
+.fa-cart-shopping{
+    font-size: 1.5rem;
+}
+
+
+
+/* second nav */
+#second_nav{
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+#all_menu{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 2px;
+}
+#all_menu p{
+    font-weight: bold;
+}
+
+#second_nav_links{
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+
+/* hero section  */
+
+#hero{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%),url('/images/hero\ image.jpg');
+    background-size: cover;
+}
+
+/* hero boxes */
+
+#items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: -300px;
+    
+}
+
+.hero-box{
+    width: 23%;
+    height: 450px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.hero-box-heading{
+    font-size: 1.3rem;
+}
+
+.hero-box-image{
+    width: 100%;
+    height: 400px;
+    background-image: url("/images/game_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50%;
+}
+
+.hero-box-img-collage{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hero-box-link{
+    color: rgb(117, 117, 236);
+    margin-top: 15px;
+    font-size: 0.8rem;
+}
+
+#collage_content p{
+    font-size: 0.7rem;
+}
+
+
+/* footer cta  */
+#footer-CTA{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-cta-btn{
+    background-color: #ffbc58;
+    color: black;
+    width: 200px;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#footer-CTA p{
+    font-size: 0.7rem;
+}
+#footer-CTA>p>a{
+    color: rgb(58, 37, 248);
+}
+
+
+/* back to to  */
+#backtoTop{
+    height: 50px;
+    background-color: #2d3846;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+/* big footer  */
+
+#big-footer{
+    height: 350px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    line-height: 1.6rem;
+}
+#big-footer p{
+    font-weight: bold;
+}
+
+
+/* big footer 2 */
+#big-footer2{
+    height: 130px;
+    background-color: #131921;
+    color: white;
+    border-top: 2px solid #364357;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+#big-footer2-btns{
+    display: flex;
+    gap: 10px;
+}
+
+.bigfooter2_btn{
+    /* width: 140px; */
+    height: 35px;
+    background-color: transparent;
+    padding: 8px 30px 8px 8px;
+    border: 1px solid #2c394b;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 4px;
+}
+#rupee_footer_btn p{
+    margin-right: 8px;
+}
+
+
+/* main footer  */
+
+#main-foo{
+    height: 60px;
+    background-color: #121418;
+    color: white;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#main-footer-links a{
+    margin-left: 10px;
+}
